@@ -8,7 +8,6 @@ django = "*"
 django-debug-toolbar = "*"
 djangorestframework = "*"
 django-cors-headers = "*"
-mysqlclient = "*"
 whitenoise = "*"
 gunicorn = "*"
 psycopg2-binary = "*"
@@ -18,4 +17,4 @@ python-decouple = "*"
 [dev-packages]
 
 [requires]
-python_version = "*"
+python_version = "3.9"

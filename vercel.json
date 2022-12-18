@@ -6,7 +6,7 @@
       "use": "@vercel/python",
       "config": {
         "maxLamdaSize": "15mb",
-        "runtime": "python3.10.4"
+        "runtime": "python3.9"
       }
     },
     {
@@ -24,7 +24,7 @@
     },
     {
       "src": "/(.*)",
-      "dest": "/backend/wsgi.py"
+      "dest": "/netly/wsgi.py"
     }
   ]
 }
